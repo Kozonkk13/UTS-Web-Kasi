@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GameZone - Form Pembayaran</title>
+</head>
+<body bgcolor="#1a1a2e" text="#eeeeee" link="#00d2fc" vlink="#00a8cc">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+            <td colspan="3" bgcolor="#0f172a" align="center">
+                <h1><font color="#00d2fc">GAMEZONE STORE INDONESIA</font></h1>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#ffdd00" align="center">
+                <a href="index.html"><b><font color="#111111">Katalog Game</font></b></a> | 
+                <a href="detail.html"><b><font color="#111111">Detail Game</font></b></a> | 
+                <a href="transaksi.html"><b><font color="#111111">Form Order</font></b></a> | 
+                <a href="tentang.html"><b><font color="#111111">Tentang Kami</font></b></a> | 
+                <a href="kontak.html"><b><font color="#111111">Kontak & Biodata</font></b></a>
+            </td>
+        </tr>
+        <tr valign="top">
+            <td width="15%" bgcolor="#16213e">
+                <h3><font color="#ffdd00">Keamanan</font></h3>
+                <p><font size="2">Gerbang pembayaran terverifikasi aman dan instan.</font></p>
+            </td>
+            
+            <td width="70%" bgcolor="#0f0f1a">
+                <h2 align="center">Formulir Konfirmasi Pembayaran Game</h2>
+                <hr color="#16213e">
+                <br>
+                
+                <form action="#" method="post">
+                    <table width="85%" cellpadding="8" border="0" align="center" bgcolor="#1a1a2e">
+                        <tr>
+                            <td width="35%"><b>Nama Lengkap Pembeli</b></td>
+                            <td><input type="text" name="nama" size="30" placeholder="Masukkan nama Anda" required></td>
+                        </tr>
+                        <tr>
+                            <td><b>No. WhatsApp Anda</b></td>
+                            <td><input type="text" name="hp" size="20" placeholder="Contoh: 081234567" required></td>
+                        </tr>
+                        <tr>
+                            <td><b>Alamat Email Aktif</b></td>
+                            <td><input type="email" name="email" size="30" placeholder="nama@email.com" required></td>
+                        </tr>
+                        <tr>
+                            <td><b>Konfirmasi Game</b></td>
+                            <td>
+                                <select name="game_ordered">
+                                    <option value="mlbb">Mobile Legends - Diamonds</option>
+                                    <option value="ff">Free Fire - Diamonds</option>
+                                    <option value="pubg">PUBG Mobile - Unknown Cash</option>
+                                    <option value="genshin">Genshin Impact - Genesis Crystal</option>
+                                    <option value="steam">Steam Wallet Voucher IDR</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><b>Metode Pembayaran</b></td>
+                            <td>
+                                <input type="radio" name="metode_bayar" value="qris" checked> QRIS (Gopay, OVO, Dana) - Otomatis<br>
+                                <input type="radio" name="metode_bayar" value="bca"> Virtual Account Bank BCA<br>
+                                <input type="radio" name="metode_bayar" value="mandiri"> Virtual Account Bank Mandiri<br>
+                                <input type="radio" name="metode_bayar" value="retail"> Gerai Retail (Alfamart / Indomaret)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><b>Catatan Tambahan</b></td>
+                            <td><textarea name="catatan" rows="3" cols="40" placeholder="Tulis catatan jika ada request khusus..."></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="checkbox" name="syarat" required> Saya menjamin data ID Akun Game yang dimasukkan sudah benar.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <br>
+                                <input type="submit" value="Konfirmasi & Bayar Sekarang">
+                                <input type="reset" value="Reset Form">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+
+            <td width="15%" bgcolor="#16213e">
+                <h3><font color="#ffdd00">Waktu Proses</font></h3>
+                <p><font size="2">E-Wallet & QRIS diproses dalam hitungan detik. Bank VA maksimal 5 menit.</font></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" bgcolor="#0f172a" align="center">
+                <p><font color="#94a3b8" size="2">&copy; 2026 GameZone Store. UTS - All Rights Reserved.</font></p>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
